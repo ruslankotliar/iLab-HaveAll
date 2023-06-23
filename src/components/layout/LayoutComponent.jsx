@@ -23,7 +23,7 @@ const HeaderComponent = () => {
 
   return (
     <>
-      {pathname === '/iLab-HaveAll' ? (
+      {pathname.includes('iLab-HaveAll') ? (
         <></>
       ) : (
         <div className='header_container bg-color-secondary'>

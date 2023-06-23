@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/iLab-HaveAll/static/css/main.412d2fa9.css",
-    "main.js": "/iLab-HaveAll/static/js/main.fb3e7292.js",
+    "main.js": "/iLab-HaveAll/static/js/main.b701a280.js",
     "static/media/slider2.png": "/iLab-HaveAll/static/media/slider2.f115277736d0a61c1a9d.png",
     "static/media/slider1.png": "/iLab-HaveAll/static/media/slider1.7f53c4110a113726c600.png",
     "static/media/slider3.png": "/iLab-HaveAll/static/media/slider3.a005a5d4c4a4ad257046.png",
@@ -17,10 +17,10 @@
     "static/media/person4.avif": "/iLab-HaveAll/static/media/person4.5dee975d1ed6f3261913.avif",
     "index.html": "/iLab-HaveAll/index.html",
     "main.412d2fa9.css.map": "/iLab-HaveAll/static/css/main.412d2fa9.css.map",
-    "main.fb3e7292.js.map": "/iLab-HaveAll/static/js/main.fb3e7292.js.map"
+    "main.b701a280.js.map": "/iLab-HaveAll/static/js/main.b701a280.js.map"
   },
   "entrypoints": [
     "static/css/main.412d2fa9.css",
-    "static/js/main.fb3e7292.js"
+    "static/js/main.b701a280.js"
   ]
 }

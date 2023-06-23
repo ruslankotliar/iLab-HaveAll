@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/iLab-HaveAll/static/css/main.80a8cee0.css",
+    "main.js": "/iLab-HaveAll/static/js/main.bd9bdf5d.js",
+    "static/media/slider2.png": "/iLab-HaveAll/static/media/slider2.f115277736d0a61c1a9d.png",
+    "static/media/slider1.png": "/iLab-HaveAll/static/media/slider1.7f53c4110a113726c600.png",
+    "static/media/slider3.png": "/iLab-HaveAll/static/media/slider3.a005a5d4c4a4ad257046.png",
+    "static/media/pageImage-adviceMe.jpg": "/iLab-HaveAll/static/media/pageImage-adviceMe.19909032838f39db346e.jpg",
+    "static/media/HA-Logo-BGtransparent.png": "/iLab-HaveAll/static/media/HA-Logo-BGtransparent.087dbbeb783e04cb9448.png",
+    "static/media/person6.avif": "/iLab-HaveAll/static/media/person6.e97fa20bf472972127ad.avif",
+    "static/media/person1.avif": "/iLab-HaveAll/static/media/person1.6866f140bf6b41405cac.avif",
+    "static/media/person3.avif": "/iLab-HaveAll/static/media/person3.669706aa1e63672078c9.avif",
+    "static/media/person7.avif": "/iLab-HaveAll/static/media/person7.7398036d866b5500b9c9.avif",
+    "static/media/person2.avif": "/iLab-HaveAll/static/media/person2.a381cc3078f38a5b14f8.avif",
+    "static/media/person5.avif": "/iLab-HaveAll/static/media/person5.51253c822f40183ed6a8.avif",
+    "static/media/person4.avif": "/iLab-HaveAll/static/media/person4.5dee975d1ed6f3261913.avif",
+    "index.html": "/iLab-HaveAll/index.html",
+    "main.80a8cee0.css.map": "/iLab-HaveAll/static/css/main.80a8cee0.css.map",
+    "main.bd9bdf5d.js.map": "/iLab-HaveAll/static/js/main.bd9bdf5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80a8cee0.css",
+    "static/js/main.bd9bdf5d.js"
+  ]
+}

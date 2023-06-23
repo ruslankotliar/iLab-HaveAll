@@ -1,0 +1,67 @@
+.bookings__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0 3rem 0;
+    background-color: #F4F4F4;
+}
+
+.bookings__calendar-container {
+    padding: 2rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #304649;
+}
+
+.bookings__today {
+    width: 21rem;
+    margin-top: 2rem;
+}
+
+.bookings__today-info {
+    border-left: 3px solid #417B7D;
+    padding-left: 1rem;
+    margin-top: .5rem;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.bookings__info--right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* bookings data side */
+.bookings__header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.bookings__data-container {
+    margin: 2rem 3rem;
+    overflow-y: scroll;
+    height: 30rem;
+}
+
+/* booking items */
+.booking__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.booking__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.btn__item {
+    border: none;
+    
+}

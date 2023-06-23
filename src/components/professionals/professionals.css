@@ -1,0 +1,148 @@
+.prof__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem 0 3rem 0;
+    background-color: #F4F4F4;
+}
+
+.prof__filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 6rem 0;
+    border: 1px solid #304649;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 1rem 0;
+}
+
+.filter-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.filter-select,
+.filter-input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.filter-select {
+    width: 15rem;
+}
+
+.filter-input {
+    width: 14.25rem;
+}
+
+.prof__btn {
+    border: none;
+}
+
+/* list  */
+.profile-image {
+    width: 10rem;
+    height: auto;
+}
+
+.professionals-list-content {
+    height: 30rem;
+    overflow-y: scroll;
+    padding-right: 10px;
+    margin: 2rem 3rem;
+}
+
+.professional-item {
+    display: flex;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+.professional-item-left {
+    display: flex;
+    align-items: center;
+}
+
+.professional-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-icon,
+.rating-icon {
+    margin-right: 5px;
+}
+
+.professional-item-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.book-now-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+    background-color: #0056b3;
+}
+
+.plus-icon {
+    margin-left: 8px;
+}
+
+.professional-item-details {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    column-gap: 2rem;
+    width: 100%;
+    margin: 1rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.book-btn {
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 0.25rem;
+    width: 7.5rem;
+    margin: 0 2rem;
+}
+
+.btn__book-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.detail-with-icon {
+    display: flex;
+    align-items: flex-start;
+}
+
+.funny-gif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

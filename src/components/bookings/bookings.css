@@ -1,7 +1,7 @@
 .bookings__container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin: 1rem 0 3rem 0;
+    margin-top: 1rem;
     background-color: #F4F4F4;
 }
 
@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     border: 1px solid #304649;
 }
 
@@ -25,7 +24,7 @@
     margin-top: .5rem;
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-    column-gap: 2rem;
+    column-gap: .5rem;
 }
 
 .bookings__info--right {
@@ -43,13 +42,14 @@
 .bookings__data-container {
     margin: 2rem 3rem;
     overflow-y: scroll;
-    height: 30rem;
+    height: 31rem;
 }
 
 /* booking items */
 .booking__container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr) 1fr;
+    justify-items: flex-start;
     margin-bottom: 1rem;
     padding: 1rem 2rem 1rem 1rem;
 }
@@ -63,5 +63,9 @@
 
 .btn__item {
     border: none;
-    
+}
+
+.booking__delete {
+    cursor: pointer;
+    justify-self: flex-end;
 }

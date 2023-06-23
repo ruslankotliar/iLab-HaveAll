@@ -1,0 +1,18 @@
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 4rem 10rem;
+}
+
+img {
+    width: 20rem;
+}
+
+.about__text-item {
+    margin-bottom: 1rem;
+}
+
+.about__title {
+    margin-top: 0;
+}

@@ -2,6 +2,10 @@
 
 @import url('./styles/vars.css');
 
+html {
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;

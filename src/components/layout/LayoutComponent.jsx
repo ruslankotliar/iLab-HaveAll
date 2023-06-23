@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './layout.css';
 import { AiOutlineHome } from 'react-icons/ai';
 import logo from '../../images/HA-Logo-BGtransparent.png';
@@ -7,9 +7,9 @@ import { NavLink, useLocation, useMatch } from 'react-router-dom';
 
 const LayoutComponent = ({ children }) => {
   return (
-    <div>
+    <div className='page__container'>
       <HeaderComponent />
-      {children}
+      <div className='page__content'>{children}</div>
       <FooterComponent />
     </div>
   );
@@ -23,7 +23,7 @@ const HeaderComponent = () => {
 
   return (
     <>
-      {pathname === '/login' ? (
+      {pathname === '/iLab-HaveAll' ? (
         <></>
       ) : (
         <div className='header_container bg-color-secondary'>
@@ -42,10 +42,10 @@ const HeaderComponent = () => {
             </div>
             <div className='brand_container__item'>
               <NavLink
-                to={'/login'}
-                className='brand_container__btn bg-color-attention color-secondary font_weight-semi_bold'
+                to={'/iLab-HaveAll'}
+                className=' brand_container__btn bg-color-attention color-secondary font_weight-semi_bold'
               >
-                LOGOUT
+                <div className='scale'>LOGOUT</div>
               </NavLink>
             </div>
           </div>
@@ -59,11 +59,11 @@ const HeaderComponent = () => {
                 }
                 to={'/professionals'}
               >
-                PROFESSIONALS
+                <div className='scale'>PROFESSIONALS</div>
               </NavLink>
               <NavLink
                 className={
-                  'color-secondary nav_container__item shadow font_size-l' +
+                  'color-secondary nav_container__item scale shadow font_size-l' +
                   ' ' +
                   (adviseMatch ? 'bg-color-primary' : 'bg-color-attention')
                 }
@@ -79,7 +79,7 @@ const HeaderComponent = () => {
                 }
                 to={'/bookings'}
               >
-                MY BOOKINGS
+                <div className='scale'>MY BOOKINGS</div>
               </NavLink>
             </div>
           </div>

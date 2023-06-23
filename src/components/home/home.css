@@ -33,6 +33,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 3rem 0;
+    padding-bottom: 0;
     gap: 3rem;
 }
 

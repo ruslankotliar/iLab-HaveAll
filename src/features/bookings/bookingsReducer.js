@@ -8,7 +8,6 @@ const initialState = {
 const bookingsReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_ITEM: {
-      console.log(action.payload);
       return {
         currentBooking: null,
         bookings: [...state.bookings, action.payload],

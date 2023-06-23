@@ -4,7 +4,16 @@ import advise from './advise.route';
 import bookings from './bookings.route';
 import professionals from './professionals.route';
 import newBooking from './newBookings.route';
+import about from './about.route';
 
-const routes = [login, home, advise, bookings, professionals, newBooking];
+const routes = [
+  login,
+  home,
+  advise,
+  bookings,
+  professionals,
+  newBooking,
+  about,
+];
 
 export default routes;

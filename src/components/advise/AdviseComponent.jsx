@@ -5,6 +5,10 @@ import ReactCountryFlag from 'react-country-flag';
 import { LANGUAGES } from '../../constants';
 
 const AdviseComponent = () => {
+  const redirectWhatsApp = (phone) => {
+    window.open(`https://wa.me/${phone}`, '_blank');
+  };
+
   return (
     <div className='advise__container bg-color-light color-primary'>
       <div className='advise__left'>
@@ -25,8 +29,8 @@ const AdviseComponent = () => {
           <p>Please choose your preferred language first:</p>
         </div>
         <div className='advise__languages-container'>
-          {LANGUAGES.map((language) => (
-            <div>
+          {LANGUAGES.map(({ id, phone }) => (
+            <div className='scale' onClick={() => redirectWhatsApp(phone)}>
               <ReactCountryFlag
                 style={{
                   fontSize: '5rem',
@@ -36,7 +40,7 @@ const AdviseComponent = () => {
                   borderRadius: '50%',
                   cursor: 'pointer',
                 }}
-                countryCode={language}
+                countryCode={id}
               />
             </div>
           ))}

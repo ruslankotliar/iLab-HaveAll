@@ -6,16 +6,22 @@ import { useLocation } from 'react-router-dom';
 
 const CalendarComponent = ({ value, onChange, todayBooking: booking }) => {
   const location = useLocation();
+  const bookingsPage = location.pathname === '/bookings';
 
   return (
-    <div className='bookings__calendar-container shadow'>
-      {location.pathname === '/bookings' && (
+    <div
+      className={
+        (bookingsPage ? 'justify-start' : 'justify-center') +
+        ' bookings__calendar-container shadow'
+      }
+    >
+      {bookingsPage && (
         <h1 className='font_weight-semi_bold color-primary'>My Bookings</h1>
       )}
       <Calendar onChange={onChange} value={value} />
-      {booking && (
-        <div className='bookings__today font_size-s'>
-          <span className='color-attention'>Today:</span>
+      <div className='bookings__today font_size-s'>
+        <span className='color-attention'>Today:</span>
+        {booking && (
           <div className='bookings__today-info font_weight-extra-light'>
             <div>
               <p>{booking.date.toString().slice(0, 15)}</p>
@@ -30,8 +36,8 @@ const CalendarComponent = ({ value, onChange, todayBooking: booking }) => {
               <p>{booking.prof}</p>
             </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };

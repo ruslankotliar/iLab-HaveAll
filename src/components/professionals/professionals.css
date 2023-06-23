@@ -1,7 +1,6 @@
 .prof__container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin: 1rem 0 3rem 0;
     background-color: #F4F4F4;
 }
 

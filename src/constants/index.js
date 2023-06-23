@@ -10,17 +10,23 @@ import person6 from '../images/person6.avif';
 import person7 from '../images/person7.avif';
 
 const ROUTER_KEYS = {
-  LOGIN: '/login',
+  LOGIN: '/iLab-HaveAll',
   HOME: '/home',
   ADVISE: '/advise',
   PROFESSIONALS: '/professionals',
   BOOKINGS: '/bookings',
   NEW_BOOKING: '/bookings/new',
+  ABOUT: '/about',
 };
 
 const SLIDER_DATA = [slider1, slider2, slider3];
 
-const LANGUAGES = ['AT', 'GB', 'UA', 'ES'];
+const LANGUAGES = [
+  { phone: '04366488870491', id: 'AT' },
+  { phone: '0436644513594', id: 'GB' },
+  { phone: '0436767835824', id: 'UA' },
+  { phone: '034619541751', id: 'ES' },
+];
 
 const PROFESSIONALS = ['Psychologist', 'Coach', 'Counselor', 'Social Worker'];
 
